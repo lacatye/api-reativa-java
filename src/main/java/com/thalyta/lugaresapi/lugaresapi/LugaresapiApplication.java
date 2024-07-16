@@ -3,6 +3,7 @@ package com.thalyta.lugaresapi.lugaresapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
 public class LugaresapiApplication {
 
