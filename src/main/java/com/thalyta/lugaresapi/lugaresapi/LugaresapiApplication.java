@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-@ComponentScan({"com.thalyta.lugares.config", "com.thalyta.lugares.api", "com.thalyta.lugares.domain", "com.thalyta.lugares.lugaresapi"})
+@ComponentScan({"com.thalyta.lugaresapi.config", "com.thalyta.lugaresapi.api", "com.thalyta.lugaresapi.domain", "com.thalyta.lugaresapi.lugaresapi"})
 public class LugaresapiApplication {
 
 	public static void main(String[] args) {

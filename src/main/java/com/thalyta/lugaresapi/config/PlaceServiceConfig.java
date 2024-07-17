@@ -10,9 +10,11 @@ import com.thalyta.lugaresapi.domain.PlaceService;
 @Configuration
 @EnableR2dbcAuditing
 public class PlaceServiceConfig {
-	
+
   @Bean
   PlaceService placeService(PlaceRepository placeRepository) {
     return new PlaceService(placeRepository);
   }
+  
+  
 }
