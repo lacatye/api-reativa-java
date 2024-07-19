@@ -7,14 +7,12 @@ import org.springframework.data.r2dbc.config.EnableR2dbcAuditing;
 import com.thalyta.lugaresapi.domain.PlaceRepository;
 import com.thalyta.lugaresapi.domain.PlaceService;
 
-@Configuration
-@EnableR2dbcAuditing
-public class PlaceServiceConfig {
 
+@Configuration
+@EnableR2dbcAuditing // Para preencher o createdAt e updatedAt
+public class PlaceServiceConfig {
   @Bean
   PlaceService placeService(PlaceRepository placeRepository) {
     return new PlaceService(placeRepository);
   }
-  
-  
 }

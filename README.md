@@ -9,6 +9,7 @@ Esta API foi desenvolvida juntamente com as orientações da professora e desenv
 - **Uso de DTOs:** Utilização de Data Transfer Objects para definir de forma clara os contratos da API.
 - **Injeção de Dependências:** Gerenciamento eficiente de dependências para promover baixo acoplamento e facilitar a manutenção.
 - **Geração Automática de Slugs:** Utilização do Slugify para gerar URLs amigáveis automaticamente.
+- **Testes** Testes para verificar a funcionalidade correta da API.
 
 ## Endpoints da API ##
 - **POST /places:** Cria um novo lugar com os dados fornecidos.
